@@ -1,0 +1,98 @@
+.touch__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.touch__header {
+    background-image: url(https://jthemes.net/themes/wp/bolby/bolby9/wp-content/uploads/sites/9/2021/01/map-1.svg);
+    background-repeat: no-repeat;
+    background-size: 90% auto;
+}
+
+
+.touch__container--description a {
+    color: #FF4C60;
+    text-decoration: none;
+}
+
+.touch__form--row {
+    margin-bottom: 20px;
+}
+
+.touch__form--field {
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+    border-radius: 30px;
+    padding: 20px 30px;
+    background-color: #fff;
+    outline: none;
+    border: none;
+}
+
+.field-area {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+
+/* RESPONSIVE */
+
+/* MOBILE */
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    #touch {
+        margin-top: 50px;
+    }
+    .touch__head {
+        margin-left: 40px;
+    }
+
+    .touch__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .touch__header {
+        margin: 20px 0;
+    }
+
+    .touch__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .touch__form--field {
+        width: 90%;
+        margin: 20px 18px 0 18px;
+    }
+
+    .touch__form .button {
+        margin-bottom: 20px;
+    }
+}
+
+/* TABLET */
+
+@media(min-width: 768px) and (max-width: 1023px) {
+    #touch {
+        margin-top: 50px;
+    }
+    .touch__head {
+        margin-left: 40px;
+    }
+    .touch__container {
+        margin-left: 40px;
+    }
+
+    .touch__form--row {
+        margin: 0;
+    }
+    .touch__form--field {
+        width: 90%;
+        margin: 0 18px 20px 18px;
+    }
+    .touch__form .button {
+        margin-bottom: 20px;
+        margin-left: 18px;
+    }
+}
